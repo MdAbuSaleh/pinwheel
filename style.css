@@ -28,8 +28,10 @@ section{
     z-index: 9;
 }
 .pinwheel-1 h3{
-    margin-top: 300px;
+    margin-top: 200px;
     text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 
@@ -40,15 +42,16 @@ section{
     top: 29%;
     left: 46%;
     background-color: #000;
-    width: 5px;
+    width: 15px;
+    border-radius: 10px;
     height: 200px;
     z-index: -1;
 }
 .pinwheel-1 img{
-    width: 100px;
+    width: 200px;
     position: relative;
-    top: 20%;
-    left: 30%;
+    top: 12%;
+    left: 15%;
     animation: pinwheel 0.4s ease-in  infinite alternate;
 }
 @keyframes pinwheel {
@@ -71,8 +74,10 @@ section{
 
 }
 .pinwheel-2 h3{
-    margin-top: 300px;
+    margin-top: 200px;
     text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
 .pinwheel-2::after{
     content: "";
@@ -80,7 +85,8 @@ section{
     top: 29%;
     left: 46%;
     background-color: #000;
-    width: 5px;
+    width: 15px;
+    border-radius: 10px;
     height: 200px;
     z-index: -1;
 }
@@ -89,8 +95,8 @@ section{
     transition: transform 10s;
 }
 .pinwheel-2 img{
-    width: 100px;
+    width: 200px;
     position: relative;
-    top: 20%;
-    left: 30%;
+    top: 12%;
+    left: 15%;
 }
