@@ -52,7 +52,7 @@ section{
     position: relative;
     top: 12%;
     left: 15%;
-    animation: pinwheel 0.4s ease-in  infinite;
+    animation: pinwheel 0.4s linear  infinite;
 }
 @keyframes pinwheel {
     to {
